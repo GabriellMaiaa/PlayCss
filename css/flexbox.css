@@ -9,7 +9,18 @@
 .cabecalho__pesquisar__item{
     display: none;
 }
-/*Secao superio abaixo*/
+/* Menu Lateral */
+.menu__container {
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
+}
+.menu__lista {
+    display: flex;
+}
+
+/*Secao superior abaixo*/
 
 .superior__secao__container {
     display: flex;
