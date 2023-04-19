@@ -45,6 +45,7 @@
     white-space: nowrap;
     overflow: scroll;
     gap: 15px;
+    margin-left: 51px;
 }
 
 @media(min-width:834px) {
@@ -93,5 +94,10 @@
 }
     .menu__lista {
         height: auto;
+        padding: 20px 17px 20px 15px;
+    }
+    .menu__itens {
+        flex-direction: column;
+        gap: 10px;
     }
 }
