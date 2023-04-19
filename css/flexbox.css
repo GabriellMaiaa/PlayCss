@@ -95,9 +95,26 @@
     .menu__lista {
         height: auto;
         padding: 20px 17px 20px 15px;
+        gap: 18px;
     }
     .menu__itens {
         flex-direction: column;
         gap: 10px;
+    }
+    .menu__lista:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+
+    .jogos {
+        order: 3;
+    }
+    .filmes {
+        order: 2;
+    }
+    .premium {
+        order: 1;
+    }
+    .maispagina {
+        order: 4;
     }
 }
